@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    background-color: rgb(135, 135, 241);
+    
+    padding: 15px;
+}
+
+.buttonservices {
+    padding: 10px;
+    color: white;
+    background-color: tomato;
+    margin-right: 10px;
+    border-color:transparent;
+}
+
+
+.buttonevents {
+    padding: 10px;
+    color: white;
+    background-color: tomato;
+    margin-right: 10px;
+    border-color:transparent;
+}
+
+.buttonsignin {
+    padding: 10px;
+    color: white;
+    background-color: tomato;
+    margin-left: auto;
+    border-color:transparent;
+}
+
+.eventscontainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    margin-right: 10px;
+}
+
+.description {
+    background-color: rgb(233, 233, 233);
+    flex-grow: 1;
+    padding: 15px;
+    
+}
+
+
+.dateprice {
+    background-color: rgb(255, 231, 231);
+    border: solid 1px rgb(255, 207, 207);
+    flex: 0 0 200px;
+    padding: 15px;
+}
+
+
+.article1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+.lorem1 {
+    background-color: rgb(233, 233, 233);
+    flex-grow: 1;
+    padding: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.article1dp {
+    background-color: rgb(255, 231, 231);
+    border: solid 1px rgb(255, 207, 207);
+    flex: 0 0 200px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+
+.jobscontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.developer {
+    background-color: rgb(173, 155, 173);
+    margin: 20px 0px 10px 20px;
+    flex: 0 0 200px;
+    padding: 15px;
+}
+
+
+.article3 {
+    display: flex;
+    background-color: rgb(225, 159, 255);
+    margin: 20px 20px 10px 20px;
+    padding: 15px;
+}
+
+
+.apply {
+    background-color: violet;
+    border-radius: 5px;
+    margin-right: auto;
+    padding: 15px;
+    align-self: flex-end;
+}
